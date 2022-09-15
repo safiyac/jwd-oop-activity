@@ -54,16 +54,54 @@ let joeBob = {
 // Use the above object to print the following items to the console
 
 // age
+console.log(joeBob.age); 
 
 // first name and last name in the same line ( you will have to concat )
-
+console.log("first" + "last");
+    
 // is joe bobs hair clean? If not then print "Joe Bob should wash his hair."
+hairclean(){
+                    if (joeBob.hair.isClean){
+                        console.log("Joe Bob has clean hair today")
+                    } else {
+                        console.log("Joe Bob should wash his hair.")
+                    }
+                },
 
 // the entire array of clothes
+                    console.log(joeBob.clothes);
 
 // the waist size of joe bobs jeans
+console.log(joeBob.waist);
 
 // run the method incomingCall(), run it again but have the call go to voicemail instead.
-
+incomingCall(){
+                    if (joeBob.awake){
+                        console.log("ring ring, ring ring, ring ring... Hello, this is Joe Bob")
+                    } else {
+                        console.log("ring ring, ring ring, ring ring... Thanks for calling, please leave a message.")
+                    }
+                },
+                notification(){
+                    console.log("DING!")
+                }
+            }
+        ]
+        },
+            
+            incomingCall(asleep){
+                    if (joeBob.awake){
+                        console.log("ring ring, ring ring, ring ring... Hello, this is Joe Bob")
+                    } else {
+                        console.log("ring ring, ring ring, ring ring... Thanks for calling, please leave a message.")
+                    }
+                },
+                notification(){
+                    console.log("DING!")
+                }
+            }
+        ]
+        },
 
 // the "type" of the last object in the clothes array
+console.log(clothes.type);
